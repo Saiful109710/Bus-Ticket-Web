@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind  daisy ui cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- css -->
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <header class="container mx-auto">
+            <!-- navbar section -->
+            <section>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li><a>Item 1</a></li>
+                         
+                          <li><a>Item 3</a></li>
+                        </ul>
+                      </div>
+                      <a class="text-xl font-bold">Green Line</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Destination</a></li>
+                        <li><a>Search</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                      <a class="btn border-2 bg-green-100 border-green-200 text-green-500 font-bold text-xl flex justify-center items-center gap-5">Bus 
+                        <span><img src="images/bus-icon.png" alt=""></span>
+                      </a>
+                    </div>
+                  </div>
+            </section>
+            <!-- banner section -->
+            <section>
+                <div class="banner-bg h-[550px] border-2 border-dashed relative" id="banner">
+                  <div class="flex flex-col justify-center items-center h-full space-y-5">
+                    <h1 class="text-white text-[64px] font-bold w-3/5 text-center leading-tight">End-to-End Travel with <span class="text-[#1DD100]">
+                        Green Line
+                    </span></h1>
+                    <p class="text-white w-2/4 text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                    <div>
+                        <button class="btn bg-[#1DD100] border-none text-white">Buy Ticket</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- banner card -->
+                <div class="flex  gap-8 absolute bottom-[100px] left-[15%]  ">
+                    <!-- card1 -->
+                     <div class="flex justify-center w-[310px] p-10 border-b-[5px] border-green-500 rounded-xl gap-3 bg-white">
+                        <div><img src="images/people.png" alt=""></div>
+                        <div class="">
+                            <h1 class="text-[25px] font-bold">500K+</h1>
+                            <p class="text-[18px] text-gray-500">Registered User</p>
+                        </div>
+                     </div>
+                      <!-- card1 -->
+                      <div class="flex justify-center w-[310px] p-10 border-b-[5px] border-green-500 rounded-xl gap-3 bg-white">
+                        <div><img src="images/ticket-cupon.png" alt=""></div>
+                        <div class="">
+                            <h1 class="text-[25px] font-bold">1.7 lakhs</h1>
+                            <p class="text-[18px] text-gray-500">Ticket Sold</p>
+                        </div>
+                     </div>
+                      <!-- card1 -->
+                      <div class="flex justify-center w-[310px] p-10 border-b-[5px] border-green-500 rounded-xl gap-3 bg-white">
+                        <div><img src="images/stoppage.png" alt=""></div>
+                        <div class="">
+                            <h1 class="text-[25px] font-bold">80K+</h1>
+                            <p class="text-[18px] text-gray-500">Rental Partner</p>
+                        </div>
+                     </div>
+                </div>
+                
+            </section>
+        </header>
+</body>
+</html>
